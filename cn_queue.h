@@ -86,3 +86,12 @@ void      __cn_queue_free_node  (CNQ_NODE*);
 	*(type *)CN_QUEUE->back->data
 
 #endif
+
+/***************************************\
+    * ** ***    CHANGELOG    *** ** *
+\***************************************/
+
+/*
+    2016-06-05 (1.0.0)
+      - Started writing CN_Queue. Initial (And probably the only) Release.
+*/

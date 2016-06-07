@@ -1,7 +1,13 @@
 /*
  * Simple Struct example with CN_Queues
  * 
- * CN_Queues hold any datatype as long as the size specified is the same as what you store in it.
+ * CN_Queues hold any datatype as long as the size specified on initialization.
+ * It also copies the bytes of the struct into the queue. Hence what we will
+ * demonstrate in the code below.
+ * 
+ * This application will make a struct, set some values, push it to the struct.
+ * Afterwards, it will modify that struct, then push another copy. Then print
+ * out the values of the two structs to stdout. 
  */
 
 #include <stdio.h>

@@ -26,12 +26,12 @@ main() {
 	a.a = 2;
 	a.b = 3;
 
-	cn_queue_push(queue, &a); //Push a copy of a to Queue
+	cn_queue_push(queue, &a); //Push a copy of "a" to Queue
 
 	//Update the original struct
 	a.a++;
 	a.b = a.a + a.b;
-	cn_queue_push(queue, &a); //Push another copy of a to Queue
+	cn_queue_push(queue, &a); //Push another copy of "a" to Queue
 	
 	THING* ii = 0; //Iterator
 	while (!cn_queue_empty(queue)) {

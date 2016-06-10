@@ -1,18 +1,18 @@
 /*
  * CN_Queue Library
- * 
+ *
  * Version 1.0.0 (Last Updated 2016-06-05)
- * 
+ *
  * Description:
  *     Queues for C library. Implements the data structure with a main struct
  *     and a node struct with pointers to the top node only. Any datatype can
  *     be stored in a CN_Queue, just like C++ Queues.
- *     
- *     Changelog of library is located at the bottm of "cn_queue.h"
- * 
+ *
+ *     Changelog of library is located at the bottom of "cn_queue.h"
+ *
  * Author:
  *     Clara Van Nguyen
- * 
+ *
  * For documentation and details on every function in this library, visit the following URL:
  * http://web.eecs.utk.edu/~ssmit285/lib/cn_queue/index.html
  */
@@ -38,7 +38,7 @@ typedef struct cn_queue {
 	//Nodes holding data
 	CNQ_NODE* head,
 		    * back;
-	
+
 	//Data needed in the structure
 	cnq_uint  size,
 	          elem_size;

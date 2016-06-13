@@ -8,7 +8,7 @@
  *     and a node struct with pointers to the top node only. Any datatype can
  *     be stored in a CN_Queue, just like C++ Queues.
  *
- *     Changelog of library is located at the bottom of "cn_queue.h"
+ *     Changelog of library is located at the bottom of this file.
  *
  * Author:
  *     Clara Van Nguyen

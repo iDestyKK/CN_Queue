@@ -1,4 +1,4 @@
-#CN_Queue
+# CN_Queue
 A C library that implements C++ Queues in C.
 
 Along with linked lists, queues are among one of the simplest data structures. In C++, these are included in the STL library as both simple queues and deques which you can use by using "#include &lt;queue&gt;" and "#include &lt;deque&gt;". But in C, you have to make it yourself.

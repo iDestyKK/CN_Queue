@@ -1,7 +1,7 @@
 # CN_Queue
 A C library that implements C++ Queues in C.
 
-Along with linked lists, queues are among one of the simplest data structures. In C++, these are included in the STL library as both simple queues and deques which you can use by using "#include &lt;queue&gt;" and "#include &lt;deque&gt;". But in C, you have to make it yourself.
+Along with linked lists, queues are among one of the simplest data structures. In C++, these are included in STL as both simple queues and deques which you can use by using "#include &lt;queue&gt;" and "#include &lt;deque&gt;". But in C, you have to make it yourself.
 
 Queues are a FIFO (First-In-First-Out) structure, meaning you can push back, but can only pop front. In other words, you can add to the back of the queue, but you can only access the first element.
 
